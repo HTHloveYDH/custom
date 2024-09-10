@@ -1,0 +1,25 @@
+{
+    "model_type": "DeepSeek-V2-Lite", 
+    "pos_encode": "rope",
+
+    "use_compile": false,
+    "load_weights": null,
+    "ckpt_path": "", 
+
+    "lora": false, 
+    "lora_alpha": 1,
+    "lora_rank": 1, 
+
+    "params": {
+        "d_model": 1024, 
+        "num_heads": 16, 
+        "head_dim": 128,
+        "dropout": 0.0,
+        "q_lora_rank": null, 
+        "qk_rope_head_dim": 64, 
+        "kv_lora_rank": 512, 
+        "v_head_dim": 128, 
+        "qk_nope_head_dim": 1024, 
+        "vocab_size": 102400
+    }
+}
